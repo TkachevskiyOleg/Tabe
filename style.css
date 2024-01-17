@@ -1,0 +1,77 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #333B41;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    color: white;
+    width: 90%; 
+    max-width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    empty-cells: hide;
+}
+
+table th,
+table td {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-weight: normal;
+}
+
+table th {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    vertical-align: middle;
+    font-size: 12px;
+    opacity: 0.6;
+    border: 1px solid rgb(200, 200, 200, 0.05);
+}
+
+
+
+.chemical {
+    font-size: 12px;
+    padding: 10px;
+    text-align: right;
+    border: 1px solid rgb(200, 200, 200, 0.05);
+    width: 90%; 
+    max-width: 100%;
+}
+
+.chemical span {
+    font-size: 12px;
+    width: 100%;
+    display: block;
+    line-height: 1em;
+    opacity: 0.5;
+}
+
+.chemical .number {
+    text-align: right;
+    line-height: 0.7em;
+}
+
+.chemical .letter {
+    font-weight: 600;
+    font-size: 2.17em;
+    opacity: 1;
+    width: 90%;
+}
+
+.chemical .name {
+    padding-top: 5px;
+}
+
+.chemical .mass {
+    padding-top: 5px;
+}
